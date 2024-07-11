@@ -5,7 +5,7 @@ import csv
 import os
 
 # Replace with your ScraperAPI key
-API_KEY = 'e359d4f112570de7497052d3b41fa1c7'
+API_KEY = 'YOUR API'
 
 # Initialize Translator for US English
 translator = Translator(to_lang="en")
@@ -84,7 +84,7 @@ def scrape_reviews(product_url, num_reviews=50):
 def main():
     # List of product URLs (replace with actual Amazon product URLs)
     product_urls = [
-        'https://www.amazon.in/Intel-i9-12900K-Desktop-Processor-Unlocked/dp/B09FXDLX95/ref=sr_1_3?crid=MP7ZELPJEWHL&dib=eyJ2IjoiMSJ9.eadh2Nh5LZ2qgXghUq39OhldqCbbRUD2hd84hHejl521Ge6gxcruNsP-nfE1QVS0bxdtzlTUbQw8BLT6KRPjQNl6hdtWB01BhCWFo1KG9ynw4r8e0fZyEMiDjkscEmv_Z4ihn7oCnKm_JmfLycOJmutVcHpEy9CMAWPCJt8GELM_aMTsRFqyB3kR5PELSmjGIdyESuk6c-ucRuC_B4nx1KFCww4HBo61sZuAEUOTKYE.lOAvCnxWYpTKHPcLzwPYMHUJEQNXFyTYaBlENawxMbI&dib_tag=se&keywords=12th%2BGen%2BIntel%C2%AE%2BCore%2BMobile%2Bprocessors%2Bcore%2Bi9&nsdOptOutParam=true&qid=1720254088&sprefix=12th%2Bgen%2Bintel%2Bcore%2Bmobile%2Bprocessors%2Bcore%2Bi9%2Caps%2C244&sr=8-3&th=1'
+        'place url' #Place your relevant URL
     ]
 
     all_reviews = []
