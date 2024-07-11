@@ -9,7 +9,7 @@
     <li><strong>data/</strong>: Contains the dataset of Amazon reviews in Excel format.</li>
     <li><strong>notebooks/</strong>: Jupyter notebooks for data analysis and visualization.</li>
     <li><strong>scripts/</strong>: Python scripts for sentiment analysis and generating visualizations.</li>
-    <li><strong>results/</strong>: Output files including graphs and processed data.</li>
+    <li><strong>Intel/Review_Analysis/Images</strong>: Output files including graphs and processed data.</li>
     <li><strong>README.md</strong>: Project overview and instructions.</li>
 </ul>
 
@@ -18,7 +18,7 @@
     pandas<br>
     matplotlib<br>
     textblob<br>
-    jupyter</p>
+    Jupyter / Visual Studio Code</p>
 <p>Install the required packages using:</p>
 <pre><code>pip install pandas matplotlib textblob jupyter</code></pre>
 
@@ -41,7 +41,7 @@ cd sentiment-analysis-intel-reviews</code></pre>
 <pre><code>python scripts/sentiment_analysis.py</code></pre>
 
 <h3>Results</h3>
-<p>The sentiment analysis results and visualizations are saved in the <code>results/</code> directory. You can find:</p>
+<p>The sentiment analysis results and visualizations are saved in the <code>Intel/Review_Analysis/Images</code> directory. You can find:</p>
 <ul>
     <li><code>sentiment_distribution.png</code>: Pie chart showing the sentiment distribution of reviews.</li>
     <li>Processed data files with sentiment scores and categories.</li>
