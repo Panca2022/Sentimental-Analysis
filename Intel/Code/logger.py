@@ -1,0 +1,13 @@
+import logging
+import sys
+
+
+def setup_logging(level="INFO"):
+    logging.basicConfig(
+        level=level,
+        format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
+        handlers=[
+            logging.StreamHandler(sys.stdout),
+            logging.FileHandler("pipeline.log", encoding="utf-8"),
+        ],
+    )

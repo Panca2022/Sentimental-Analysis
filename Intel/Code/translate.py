@@ -1,4 +1,6 @@
-from googletrans import Translator
+from cache_translator import CachedTranslator
+translator = CachedTranslator()
+translated = translator.translate(text)
 import pandas as pd
 
 # Function to translate text using Google Translate API
